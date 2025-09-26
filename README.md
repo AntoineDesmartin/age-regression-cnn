@@ -16,9 +16,9 @@ You can launch a small Gradio app that loads a saved model file (`models/age_reg
 
 ```bash
 # 1) Clone repo
-      git clone https://github.com/AntoineDesmartin/age-regression-cnn.git
+git clone https://github.com/AntoineDesmartin/age-regression-cnn.git
 
-      cd age-regression-cnn
+cd age-regression-cnn
 
 # 2) Create a venv and install deps
 python -m venv .venv
