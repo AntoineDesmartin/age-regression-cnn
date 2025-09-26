@@ -15,14 +15,19 @@ Dataset: **UTKFace** (public) loaded via **`kagglehub`**.
 You can launch a small Gradio app that loads a saved model file (`models/age_regressor.h5`).
 
 ```bash
-# 1) Create a venv and install deps
+# 1) Clone repo
+      git clone https://github.com/AntoineDesmartin/age-regression-cnn.git
+
+      cd age-regression-cnn
+
+# 2) Create a venv and install deps
 python -m venv .venv
 
 source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
 
 pip install -r requirements.txt
 
-# 2) Run
+# 3) Run
 python app.py
 ```
 
